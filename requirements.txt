@@ -1,0 +1,10 @@
+#API
+fastapi
+uvicorn
+
+#.env
+python-dotenv
+
+#streamlit
+streamlit
+requests
