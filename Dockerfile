@@ -15,7 +15,7 @@ RUN pip install -e .
 # Here, we use uvicorn to control the web server ports
 
 # local
-#CMD uvicorn package_folder.api_backend:api --host 0.0.0.0
+CMD uvicorn package_folder.api_backend:api --host 0.0.0.0
 
 # deploy to gcp
 CMD uvicorn package_folder.api_backend:api --host 0.0.0.0 --port $PORT
